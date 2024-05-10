@@ -1,24 +1,5 @@
 const http = require('node:http');
 const os = require('node:os');
-// const fs = require('fs');
-
-// const server = http.createServer((req, res) => {
-//   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
-
-//   if (req.url === '/jokes') {
-//     fs.readFile('./db.json', 'utf-8', (err, data) => {
-//       if (err) throw err;
-
-//       res.writeHead(200, { 'Content-Type': 'text/plain' });
-
-//       res.end(data);
-//     });
-//   }
-// });
-
-// server.listen(8000, '127.0.0.1', () => {
-//   console.log('server running');
-// });
 
 // Function to simulate asynchronous operation with random delay
 function asyncOperation(callback) {
